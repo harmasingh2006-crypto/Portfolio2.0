@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harman Singh | Biotechnology & Data Science Portfolio</title>
+  <meta name="description" content="Harman Singh – Biotechnology Undergraduate, Computational Biology & Data Science enthusiast. Explore my projects, skills, and background." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">HS<span class="dot">.</span></div>
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-bg-decor"></div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Harman Singh</h1>
+        <div class="hero-roles">
+          <span class="role-tag">🧬 Biotechnology</span>
+          <span class="role-tag">🔬 Computational Biology</span>
+          <span class="role-tag">📊 Data Science</span>
+        </div>
+        <p class="hero-subtitle">
+          A passionate undergraduate at <strong>Lovely Professional University</strong>, blending the worlds of life science and technology to build impactful solutions.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="view-projects-btn">View Projects</a>
+          <a href="mailto:harmasingh2006@gmail.com" class="btn btn-secondary" id="contact-btn">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/harma2006" target="_blank" rel="noopener" class="social-link" id="linkedin-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/harmasingh2006-crypto" target="_blank" rel="noopener" class="social-link" id="github-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="mailto:harmasingh2006@gmail.com" class="social-link" id="email-link" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.908 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-avatar-ring">
+          <div class="hero-avatar" id="hero-avatar">
+            <span class="avatar-initials">HS</span>
+          </div>
+        </div>
+        <div class="hero-badge hero-badge-1">
+          <span>🧬</span> Bio-Tech
+        </div>
+        <div class="hero-badge hero-badge-2">
+          <span>🐍</span> Python
+        </div>
+        <div class="hero-badge hero-badge-3">
+          <span>📊</span> Data Science
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get To Know Me</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">🎓</div>
+          <h3>Education</h3>
+          <p>Currently pursuing <strong>B.Tech in Biotechnology</strong> at Lovely Professional University, Punjab (Aug 2024 – Present).</p>
+          <div class="edu-timeline">
+            <div class="edu-item">
+              <span class="edu-year">2024–Now</span>
+              <span class="edu-info">B.Tech – Biotechnology, LPU</span>
+            </div>
+            <div class="edu-item">
+              <span class="edu-year">2023–2024</span>
+              <span class="edu-info">12th – 62%, St. Marys's School Jindwari</span>
+            </div>
+            <div class="edu-item">
+              <span class="edu-year">2021–2022</span>
+              <span class="edu-info">10th – 71.6%, St. Marys's School Jindwari</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card about-card-main">
+          <p class="about-intro">
+            I'm <strong>Harman Singh</strong>, a driven Biotechnology undergraduate with a passion for merging life sciences with cutting-edge technology. I specialize in <strong>computational biology, data science, and structural bioinformatics</strong>.
+          </p>
+          <p>
+            From building Python tools for tax computation to designing Arduino-based IoT systems, I thrive at the intersection of biology and engineering. I'm always learning, always building.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">Punjab</span>
+              <span class="stat-label">India 📍</span>
+            </div>
+          </div>
+          <div class="about-tags">
+            <span class="tag">Problem Solver</span>
+            <span class="tag">Quick Learner</span>
+            <span class="tag">Adaptable</span>
+            <span class="tag">Analytical</span>
+            <span class="tag">Motivated</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🏅</div>
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li>
+              <span class="cert-dot"></span>
+              <div>
+                <strong>Data Science & ML</strong>
+                <span>Code With Harry · 6 months</span>
+              </div>
+            </li>
+            <li>
+              <span class="cert-dot"></span>
+              <div>
+                <strong>Complete Python Bootcamp</strong>
+                <span>Codestars / Udemy · 4 weeks</span>
+              </div>
+            </li>
+            <li>
+              <span class="cert-dot"></span>
+              <div>
+                <strong>Communication & Public Speaking</strong>
+                <span>3 months</span>
+              </div>
+            </li>
+            <li>
+              <span class="cert-dot"></span>
+              <div>
+                <strong>Python Language Basics</strong>
+                <span>Scalar · 2 weeks</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="skills-categories">
+
+        <div class="skill-category" id="skill-it">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">💻</span>
+            <h3>IT & Data</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Python</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Scikit-learn</span>
+            <span class="pill">Flask</span>
+            <span class="pill">C</span>
+            <span class="pill">C++</span>
+            <span class="pill">Jupyter</span>
+            <span class="pill">Data Handling</span>
+            <span class="pill">Cloud Basics</span>
+            <span class="pill">Cybersecurity Basics</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-bio">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🧬</span>
+            <h3>Structural Biology & Docking</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Molecular Docking</span>
+            <span class="pill">Virtual Screening</span>
+            <span class="pill">Protein Structure Prediction</span>
+            <span class="pill">AutoDock Vina</span>
+            <span class="pill">PyMOL</span>
+            <span class="pill">Discovery Studio</span>
+            <span class="pill">ESMFold</span>
+            <span class="pill">PDB API</span>
+            <span class="pill">PubChem API</span>
+            <span class="pill">SwissTargetPrediction</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-wetlab">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🔬</span>
+            <h3>Wet Lab & Microbiology</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Nanoparticle Synthesis</span>
+            <span class="pill">PCR</span>
+            <span class="pill">Gel Electrophoresis</span>
+            <span class="pill">DNA Extraction</span>
+            <span class="pill">rDNA Cloning</span>
+            <span class="pill">Microbial Culture</span>
+            <span class="pill">Staining</span>
+            <span class="pill">Streak-plate Isolation</span>
+            <span class="pill">Immunoassays</span>
+            <span class="pill">Spectrophotometry</span>
+            <span class="pill">GLP</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-web">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🌐</span>
+            <h3>Web & Dev Tools</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">React.js</span>
+            <span class="pill">Node.js</span>
+            <span class="pill">Figma</span>
+            <span class="pill">Vercel</span>
+            <span class="pill">Hostinger</span>
+            <span class="pill">Replit</span>
+            <span class="pill">WordPress</span>
+            <span class="pill">Wix</span>
+            <span class="pill">Creo Parametric</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-marketing">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📣</span>
+            <h3>Digital Marketing</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Social Media Management</span>
+            <span class="pill">Meta Ads</span>
+            <span class="pill">Marketing Strategy</span>
+            <span class="pill">SEO</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card" id="project-apex">
+          <div class="project-top">
+            <div class="project-icon">🌐</div>
+            <div class="project-date">March 2026</div>
+          </div>
+          <h3 class="project-title">Apex-Dev Website</h3>
+          <p class="project-subtitle">apex-dev.org · Personal Project</p>
+          <p class="project-desc">Frontend web development and SEO/Meta Ads optimization for an educational platform. Built for real-world impact with search engine visibility and performance in mind.</p>
+          <div class="project-tags">
+            <span class="ptag">HTML</span>
+            <span class="ptag">CSS</span>
+            <span class="ptag">JS</span>
+            <span class="ptag">SEO</span>
+            <span class="ptag">Meta Ads</span>
+          </div>
+          <a href="https://apex-dev.org" target="_blank" rel="noopener" class="project-link" id="apex-link">Visit Site →</a>
+        </article>
+
+        <article class="project-card" id="project-tax">
+          <div class="project-top">
+            <div class="project-icon">💰</div>
+            <div class="project-date">March 2025</div>
+          </div>
+          <h3 class="project-title">Income Tax Calculator</h3>
+          <p class="project-subtitle">Advanced Income Tax App using C++</p>
+          <p class="project-desc">Developed an object-oriented application utilizing file handling for automated tax slab computation. Handles multiple income brackets with structured output reports.</p>
+          <div class="project-tags">
+            <span class="ptag">C++</span>
+            <span class="ptag">OOP</span>
+            <span class="ptag">File I/O</span>
+          </div>
+        </article>
+
+        <article class="project-card" id="project-microbio">
+          <div class="project-top">
+            <div class="project-icon">🦠</div>
+            <div class="project-date">Dec 2025</div>
+          </div>
+          <h3 class="project-title">Microbiology Quiz Game</h3>
+          <p class="project-subtitle">Interactive Digital Educational Game</p>
+          <p class="project-desc">Created an interactive digital educational game focused on microbiology lab concepts. Designed to make complex biological concepts engaging and accessible for students.</p>
+          <div class="project-tags">
+            <span class="ptag">Game Dev</span>
+            <span class="ptag">Education</span>
+            <span class="ptag">Biology</span>
+          </div>
+        </article>
+
+        <article class="project-card" id="project-3d">
+          <div class="project-top">
+            <div class="project-icon">⚙️</div>
+            <div class="project-date">Aug 2025</div>
+          </div>
+          <h3 class="project-title">3D Jet Engine Model</h3>
+          <p class="project-subtitle">Mechanical Design in Creo Parametric</p>
+          <p class="project-desc">Designed a functional, rotational 3D mechanical model of a jet engine using Creo Parametric, demonstrating engineering design principles and CAD proficiency.</p>
+          <div class="project-tags">
+            <span class="ptag">Creo Parametric</span>
+            <span class="ptag">CAD</span>
+            <span class="ptag">3D Design</span>
+          </div>
+        </article>
+
+        <article class="project-card featured" id="project-dustbin">
+          <div class="project-top">
+            <div class="project-icon">♻️</div>
+            <div class="project-date">Dec 2025</div>
+          </div>
+          <h3 class="project-title">Arduino Based Smart Dustbin</h3>
+          <p class="project-subtitle">IoT Waste Management System</p>
+          <p class="project-desc">Built a touch-free waste disposal system using ultrasonic sensors for proximity detection and servo motors for automatic lid control. A practical IoT solution for smart environments.</p>
+          <div class="project-tags">
+            <span class="ptag">Arduino</span>
+            <span class="ptag">IoT</span>
+            <span class="ptag">Sensors</span>
+            <span class="ptag">Servo Motors</span>
+            <span class="ptag">C++</span>
+          </div>
+          <span class="featured-badge">⭐ Featured</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-tagline">
+            Open to collaborations, internships, and research opportunities in Biotechnology, Data Science, and Web Development!
+          </p>
+          <div class="contact-items">
+            <a href="mailto:harmasingh2006@gmail.com" class="contact-item" id="contact-email">
+              <div class="ci-icon">📧</div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">harmasingh2006@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+919478930844" class="contact-item" id="contact-phone">
+              <div class="ci-icon">📱</div>
+              <div>
+                <span class="ci-label">Mobile</span>
+                <span class="ci-value">+91 9478930844</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/harma2006" target="_blank" rel="noopener" class="contact-item" id="contact-linkedin">
+              <div class="ci-icon">💼</div>
+              <div>
+                <span class="ci-label">LinkedIn</span>
+                <span class="ci-value">linkedin.com/in/harma2006</span>
+              </div>
+            </a>
+            <a href="https://github.com/harmasingh2006-crypto" target="_blank" rel="noopener" class="contact-item" id="contact-github">
+              <div class="ci-icon">💻</div>
+              <div>
+                <span class="ci-label">GitHub</span>
+                <span class="ci-value">harmasingh2006-crypto</span>
+              </div>
+            </a>
+            <div class="contact-item" id="contact-location">
+              <div class="ci-icon">📍</div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Punjab, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hi Harman, I'd like to connect about..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">Send Message ✉️</button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <div class="footer-container">
+      <p class="footer-name">Harman Singh</p>
+      <p class="footer-tagline">Biotechnology · Data Science · Computational Biology</p>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-credit">© 2026 Harman Singh · Built with ❤️ | Punjab, India</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
